@@ -15,6 +15,9 @@ The following data types are currently available:
 * binary
 * array
 * json
+* mediumtext
+* longtext
+* objectid
 
 These will map to the underlying database type if available. If a database doesn't support a type
 a polyfill will be used. For example when using an array or json type in MySQL the values will be
